@@ -1,0 +1,18 @@
+* {
+    /* Custom Purple Neon Theme */
+    background:     #2C1A47;  /* Deep Purple */
+    background-alt: #3c2b50;  /* Slightly lighter purple for contrast */
+    foreground:     #D5B4FF;  /* Pale Lavender */
+    border:         #A78BD9;  /* Soft Lilac */
+    selected:       #C174FF;  /* Violet Glow */
+    active:         #C69CFF;  /* Electric Lavender */
+    urgent:         #fb4934;  /* (Optional) Keep red for urgency contrast */
+
+    /* Main theme colors */
+    main-bg:        @background;
+    main-fg:        @foreground;
+    main-br:        @border;
+    select-bg:      @selected;
+    select-fg:      @background;
+}
+
