@@ -1,12 +1,24 @@
-# Arch-Linux-Purple-Theme
-Compositor: hyprland 
-Terminal: kitty
-Application Launcher: Rofi
 
+# 🌌 Arch-Linux Purple Theme
 
-Purple Theme
-To use the themes
-``` bash
+**Compositor:** Hyprland  
+**Terminal:** Kitty  
+**Application Launcher:** Rofi  
+
+---
+
+## 🎨 Purple Theme Setup
+
+To install and use the theme:
+
+```bash
 git clone https://github.com/Bryan652/ArchDotfiles
 ```
-then just move them to your .config file and configure them the way you want 
+
+Then move the configuration files to your ~/.config directory:
+
+``` bash
+cp -r ArchDotfiles/* ~/.config/
+```
+
+Customize the configurations as you like to match your preferences.
